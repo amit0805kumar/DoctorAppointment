@@ -14,6 +14,22 @@ const DoctorSchema = new mongoose.Schema({
         required: true,
         unique: true
     },
+    dC: {
+        type: Number,
+        required: true,
+    },
+    emergency: {
+        type: Boolean,
+        required: true,
+    },
+    freeFrom:{
+        type:String,
+        required: true
+    },
+    freeTo:{
+        type:String,
+        required: true
+    },
     password: {
         type: String,
         required: true

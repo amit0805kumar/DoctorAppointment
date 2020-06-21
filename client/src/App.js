@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Redirect, NavLink } from "react-router-dom";
 import { Provider } from 'react-redux';
+import store from './store'
+import {loadUser} from './actions/auth'
 import enUS from 'antd/lib/locale-provider/en_US';
 import { ConfigProvider } from 'antd';
 
@@ -22,7 +24,7 @@ export const openNotificationWithIcon = (type, msg, title) => {
 
 function App() {
   return (
-    <ConfigProvider locale={enUS}>
+    <Provider store={store}>
         <Router>
                 <Switch>
                   <Route exact path='/' component={Login} />
@@ -36,7 +38,7 @@ function App() {
              </Router>
 
      
-    </ConfigProvider >
+    </Provider >
   );
 }
 

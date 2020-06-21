@@ -16,6 +16,7 @@ router.get('/',  (req, res, next)  => {
 
 app.use("/api/availableDoctors",require("./routes/api/doctors"))
 app.use("/api/emergencyDocs",require("./routes/api/emergencyDocs"))
+app.use("/api/availableDocs",require("./routes/api/availableDocs"))
 app.use("/api/auth",require("./routes/api/auth"))
 
 
