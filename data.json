@@ -1,0 +1,42 @@
+[
+    {
+        "id": "doc1",
+        "name": "Amit Kumar",
+        "number": "5569654858",
+        "email": "akamit@gmail.com",
+        "freeFrom": "1200",
+        "freeTo": "1800",
+        "dC1": 8,
+        "emergency": true
+    },
+    {
+        "id": "doc2",
+        "name": "Sunil Verma",
+        "number": "599654858",
+        "email": "sunil@gmail.com",
+        "freeFrom": "1600",
+        "freeTo": "2300",
+        "dC1": 12,
+        "emergency": true
+    },
+    {
+        "id": "doc3",
+        "name": "Akash Singh",
+        "number": "9658548568",
+        "email": "akash@gmail.com",
+        "freeFrom": "1800",
+        "freeTo": "2200",
+        "dC1": 3,
+        "emergency": false
+    },
+    {
+        "id": "doc4",
+        "name": "Anil Sharma",
+        "number": "9845235588",
+        "email": "anSharma@gmail.com",
+        "freeFrom": "1500",
+        "freeTo": "1800",
+        "dC1": 9,
+        "emergency": true
+    }
+]

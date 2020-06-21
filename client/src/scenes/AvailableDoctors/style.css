@@ -1,0 +1,16 @@
+.project-list-container {
+	text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    max-width: 1024px;
+    margin: 20px auto !important;
+    background: white;
+}
+
+.total-record-style {
+    padding: 12px 5%;
+    font-weight: bold;
+    background: white;
+    font-size: 32px;
+    color: #0037ff;
+}
